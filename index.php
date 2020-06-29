@@ -1,315 +1,330 @@
 <?php
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
- * @license	https://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
- */
+include 'inc/header.php';
+include 'inc/silder.php';
+?>
+<div class="main">
+    <div class="content">
+    	<div class="content_top">
+    		<div class="heading">
+    		<h3>Best Seller</h3>
+    		</div>
+    		<div class="clear"></div>
+    	</div>
+	      <div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/5/5/5588-606_1.jpg" alt="" /></a>
+					 <h2>Future supercar 2050</h2>
+					 <p>SKU 5588-606/W</p>
+					 <p><span class="price">350.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/r/7/r75100_ora_1.jpg" alt="" /></a>
+					 <h2> Mc Laren P1 </h2>
+					 <p>SKU R75100-ORA</p>
+					 <p><span class="price">700.000 VNĐ</span></p>   
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/0/60251_1.png" alt="" /></a>
+					 <h2>Monster Truck </h2>
+					 <p>SKU 60251</p>
+					 <p><span class="price">240.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/1/2/123965_1.jpeg" alt="" />
+					 <h2>Dragonoid Red</h2>
+					 <p>SKU 123965</p>
+					 <p><span class="price">140.000 VNĐ</span></p>  
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
 
-/*
- *---------------------------------------------------------------
- * APPLICATION ENVIRONMENT
- *---------------------------------------------------------------
- *
- * You can load different configurations depending on your
- * current environment. Setting the environment also influences
- * things like logging and error reporting.
- *
- * This can be set to anything, but default usage is:
- *
- *     development
- *     testing
- *     production
- *
- * NOTE: If you change these, also change the error_reporting() code below
- */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/k/1/k16_1.jpg" alt="" /></a>
+					 <h2>Smart dog </h2>
+					 <p>SKU K16</p>
+					 <p><span class="price">490.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/0/6044990_1.png" alt="" /></a>
+					 <h2>Monster Jam </h2>
+					 <p>SKU 6044990</p>
+					 <p><span class="price">223.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/REVANDROLL/EU881210/EU881210_2.jpg" alt="" /></a>
+					 <h2>Rumble Dog</h2>
+					 <p>SKU EU881210</p>
+					 <p><span class="price">244.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/EDDYS_MAGIC/ED27001/ED27001_1.jpg" alt="" />
+					 <h2>Eddy's Magic </h2>
+					 <p>SKU ED27001</p>
+					 <p><span class="price">204.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
 
-/*
- *---------------------------------------------------------------
- * ERROR REPORTING
- *---------------------------------------------------------------
- *
- * Different environments will require different levels of error reporting.
- * By default development will show errors but testing and live will hide them.
- */
-switch (ENVIRONMENT)
-{
-	case 'development':
-		error_reporting(-1);
-		ini_set('display_errors', 1);
-	break;
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/VECTO/NH013___GR/NH013___GR_1.jpg" alt="" /></a>
+					 <h2>UFO plane spider web </h2>
+					 <p>SKU NH013/GR</p>
+					 <p><span class="price">450.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/4/1/41397_1_1.jpg" alt="" /></a>
+					 <h2>Fruit Truck </h2>
+					 <p>SKU 41397</p>
+					 <p><span class="price">504.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/7/6/76146_1.jpg" alt="" /></a>
+					 <h2>Spider-Man Armor</h2>
+					 <p>SKU 76146</p>
+					 <p><span class="price">269.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/c/w/cw8002l_cw8002lb_1.jpg" alt="" />
+					 <h2>Scooter sleds </h2>
+					 <p>SKU CW8002LP/CW8002L</p>
+					 <p><span class="price">615.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
 
-	case 'testing':
-	case 'production':
-		ini_set('display_errors', 0);
-		if (version_compare(PHP_VERSION, '5.3', '>='))
-		{
-			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
-		}
-		else
-		{
-			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
-		}
-	break;
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/7/6/76140_1.jpg" alt="" /></a>
+					 <h2>Iron Man Armor </h2>
+					 <p>SKU 76140</p>
+					 <p><span class="price">270.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/TRANSFORMERS/E0697_E1587/E0697_E1587_1.jpg" alt="" /></a>
+					 <h2>Optimus Prime masks</h2>
+					 <p>SKU E1587/E0697</p>
+					 <p><span class="price">260.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_MOVIE/70833/70833_1.jpg" alt="" /></a>
+					 <h2>Lucy's Suitcase</h2>
+					 <p>SKU 70833</p>
+					 <p><span class="price">750.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/AVENGERS/E2170_E2219/E2170_E2219_1.jpg" alt="" />
+					 <h2>Falcon model </h2>
+					 <p>SKU E2219/E2170</p>
+					 <p><span class="price">111.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+			</div>
+			<div class="content_bottom">
+    		<div class="heading">
+    		<h3>New Products</h3>
+    		</div>
+    		<div class="clear"></div>
+    	</div>
+			<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/4/1/41168_1.jpg" alt="" /></a>
+					 <h2>Elsa's Jewelry Box </h2>
+					 <p>SKU 219018</p>
+					 <p><span class="price">1.883.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/f/x/fx-3.png" alt="" /></a>
+					 <h2>POWER DRONE FX-3 aircraft </h2>
+					 <p>SKU FX-3</p>
+					 <p><span class="price">630.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/e/5/e5558_1.jpg" alt="" /></a>
+					 <h2>Slipstream model </h2>
+					 <p>SKU E5558/E1884</p>
+					 <p><span class="price">463.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+				 <img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/0/60270_1.png" alt="" />
+					 <h2>Brick Police Box </h2>	
+					 <p>SKU 60270</p>				 
+					 <p><span class="price">803.000 VNĐ</span></p>
 
-	default:
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'The application environment is not set correctly.';
-		exit(1); // EXIT_ERROR
-}
+				     <div class="button"><span><a href="detail.php" class="details">Buy</a></span></div>
+				</div>
+			</div>
 
-/*
- *---------------------------------------------------------------
- * SYSTEM DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * This variable must contain the name of your "system" directory.
- * Set the path if it is not in the same directory as this file.
- */
-	$system_path = 'system';
+			<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/CLEVERHIPPO/BC1205/BC1205_01.jpg" alt="" /></a>
+					 <h2>FANCY Backpack </h2>
+					 <p>SKU BC1205</p>
+					 <p><span class="price">629.000 VNĐ</span></p>
+				    
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/5/5/5588-617_rd_1_1.jpg" alt="" /></a>
+					 <h2>Red six-wheel supercar </h2>
+					 <p>SKU 5588-617/RD</p>
+					 <p><span class="price">450.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/e/8/e8633_1_.jpg" alt="" /></a>
+					 <h2>Princess Mulan </h2>
+					 <p>SKU E8633</p>
+					 <p><span class="price">314.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+				 <img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/RASTAR/R79200/R79200_1.jpg" alt="" />
+					 <h2>Ferrari FXXK Evo </h2>	
+					 <p>SKU R79200</p>				 
+					 <p><span class="price">700.000 VNĐ</span></p>   
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
 
-/*
- *---------------------------------------------------------------
- * APPLICATION DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * If you want this front controller to use a different "application"
- * directory than the default one you can set its name here. The directory
- * can also be renamed or relocated anywhere on your server. If you do,
- * use an absolute (full) server path.
- * For more info please see the user guide:
- *
- * https://codeigniter.com/user_guide/general/managing_apps.html
- *
- * NO TRAILING SLASH!
- */
-	$application_folder = 'application';
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/0/6046183_1.jpg" alt="" /></a>
+					 <h2>Power dragon egg </h2>
+					 <p>SKU 6046183</p>
+					 <p><span class="price">1.539.000 VNĐ</span></p>
+				    
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_DUPLO/10847/10847_1.jpg" alt="" /></a>
+					 <h2>New Number Train </h2>
+					 <p>SKU 10847</p>
+					 <p><span class="price">660.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/4/1/41350_1_1_3.jpg" alt="" /></a>
+					 <h2>Car Wash Station </h2>
+					 <p>SKU 41350</p>
+					 <p><span class="price">314.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+				 <img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_CITY/60220/60220_1.jpg" alt="" />
+					 <h2>Garbage Truck </h2>	
+					 <p>SKU 60220</p>				 
+					 <p><span class="price">700.000 VNĐ</span></p>   
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+			   
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/3/1/31102_1.jpg" alt="" /></a>
+					 <h2>Fire Dragon </h2>
+					 <p>SKU 31102</p>
+					 <p><span class="price">500.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_CREATOR/31074/31074_1.jpg" alt="" /></a>
+					 <h2>Rocket Engine Racing Car </h2>
+					 <p>SKU 31074</p>
+					 <p><span class="price">600.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/STARWARS/B2912_B7245/B2912_B7245_1.jpg" alt="" /></a>
+					 <h2>The water god KANAN JARRUS</h2>
+					 <p>SKU B7245/B2912</p>
+					 <p><span class="price">147.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/SPARKLE_GIRLZ/SP24632/SP24632_1.jpg" alt="" />
+					 <h2>Tiny ballet dancer </h2>
+					 <p>SKU SP24632</p>
+					 <p><span class="price">80.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				
+				<div class="section group">
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/MY_LITTLE_PONY/B9817_C0114/B9817_C0114_1.jpg" alt="" /></a>
+					 <h2>30 cm cotton pony </h2>
+					 <p>SKU C0114/B9817</p>
+					 <p><span class="price">141.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/OPTIMORPHS2/YW682201/YW682201_1.jpg" alt="" /></a>
+					 <h2>Aries Power</h2>
+					 <p>SKU YW682201</p>
+					 <p><span class="price">165.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="detail.php"><img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_NINJAGO/70666/70666_1.jpg" alt="" /></a>
+					 <h2>Golden Dragon</h2>
+					 <p>SKU 70666</p>
+					 <p><span class="price">500.000 VNĐ</span></p>
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					<img src="https://p0ct8ommu0.vcdn.com.vn/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/magento/LEGO_CITY/60185/60185_1.jpg" alt="" />
+					 <h2>Stone Chisel </h2>
+					 <p>SKU 60185</p>
+					 <p><span class="price">360.000 VNĐ</span></p> 
+				     <div class="button"><span><a href="detail.php" class="Detail">Buy</a></span></div>
+				</div>
+    </div>
+ </div>
 
-/*
- *---------------------------------------------------------------
- * VIEW DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * If you want to move the view directory out of the application
- * directory, set the path to it here. The directory can be renamed
- * and relocated anywhere on your server. If blank, it will default
- * to the standard location inside your application directory.
- * If you do move this, use an absolute (full) server path.
- *
- * NO TRAILING SLASH!
- */
-	$view_folder = '';
-
-
-/*
- * --------------------------------------------------------------------
- * DEFAULT CONTROLLER
- * --------------------------------------------------------------------
- *
- * Normally you will set your default controller in the routes.php file.
- * You can, however, force a custom routing by hard-coding a
- * specific controller class/function here. For most applications, you
- * WILL NOT set your routing here, but it's an option for those
- * special instances where you might want to override the standard
- * routing in a specific front controller that shares a common CI installation.
- *
- * IMPORTANT: If you set the routing here, NO OTHER controller will be
- * callable. In essence, this preference limits your application to ONE
- * specific controller. Leave the function name blank if you need
- * to call functions dynamically via the URI.
- *
- * Un-comment the $routing array below to use this feature
- */
-	// The directory name, relative to the "controllers" directory.  Leave blank
-	// if your controller is not in a sub-directory within the "controllers" one
-	// $routing['directory'] = '';
-
-	// The controller class file name.  Example:  mycontroller
-	// $routing['controller'] = '';
-
-	// The controller function you wish to be called.
-	// $routing['function']	= '';
-
-
-/*
- * -------------------------------------------------------------------
- *  CUSTOM CONFIG VALUES
- * -------------------------------------------------------------------
- *
- * The $assign_to_config array below will be passed dynamically to the
- * config class when initialized. This allows you to set custom config
- * items or override any default config values found in the config.php file.
- * This can be handy as it permits you to share one application between
- * multiple front controller files, with each file containing different
- * config values.
- *
- * Un-comment the $assign_to_config array below to use this feature
- */
-	// $assign_to_config['name_of_config_item'] = 'value of config item';
-
-
-
-// --------------------------------------------------------------------
-// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
-// --------------------------------------------------------------------
-
-/*
- * ---------------------------------------------------------------
- *  Resolve the system path for increased reliability
- * ---------------------------------------------------------------
- */
-
-	// Set the current directory correctly for CLI requests
-	if (defined('STDIN'))
-	{
-		chdir(dirname(__FILE__));
-	}
-
-	if (($_temp = realpath($system_path)) !== FALSE)
-	{
-		$system_path = $_temp.DIRECTORY_SEPARATOR;
-	}
-	else
-	{
-		// Ensure there's a trailing slash
-		$system_path = strtr(
-			rtrim($system_path, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		).DIRECTORY_SEPARATOR;
-	}
-
-	// Is the system path correct?
-	if ( ! is_dir($system_path))
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
-		exit(3); // EXIT_CONFIG
-	}
-
-/*
- * -------------------------------------------------------------------
- *  Now that we know the path, set the main path constants
- * -------------------------------------------------------------------
- */
-	// The name of THIS file
-	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
-
-	// Path to the system directory
-	define('BASEPATH', $system_path);
-
-	// Path to the front controller (this file) directory
-	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
-
-	// Name of the "system" directory
-	define('SYSDIR', basename(BASEPATH));
-
-	// The path to the "application" directory
-	if (is_dir($application_folder))
-	{
-		if (($_temp = realpath($application_folder)) !== FALSE)
-		{
-			$application_folder = $_temp;
-		}
-		else
-		{
-			$application_folder = strtr(
-				rtrim($application_folder, '/\\'),
-				'/\\',
-				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-			);
-		}
-	}
-	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
-	{
-		$application_folder = BASEPATH.strtr(
-			trim($application_folder, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		);
-	}
-	else
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
-		exit(3); // EXIT_CONFIG
-	}
-
-	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
-
-	// The path to the "views" directory
-	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
-	{
-		$view_folder = APPPATH.'views';
-	}
-	elseif (is_dir($view_folder))
-	{
-		if (($_temp = realpath($view_folder)) !== FALSE)
-		{
-			$view_folder = $_temp;
-		}
-		else
-		{
-			$view_folder = strtr(
-				rtrim($view_folder, '/\\'),
-				'/\\',
-				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-			);
-		}
-	}
-	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
-	{
-		$view_folder = APPPATH.strtr(
-			trim($view_folder, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		);
-	}
-	else
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
-		exit(3); // EXIT_CONFIG
-	}
-
-	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
-
-/*
- * --------------------------------------------------------------------
- * LOAD THE BOOTSTRAP FILE
- * --------------------------------------------------------------------
- *
- * And away we go...
- */
-require_once BASEPATH.'core/CodeIgniter.php';
+    <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+    <link href="css/flexslider.css" rel='stylesheet' type='text/css' />
+	  <script defer src="js/jquery.flexslider.js"></script>
+	  <script type="text/javascript">
+		$(function(){
+		  SyntaxHighlighter.all();
+		});
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+</body>
+</html>
+<?php
+include 'inc/footer.php';
+?>
